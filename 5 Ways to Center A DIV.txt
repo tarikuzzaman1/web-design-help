@@ -1,0 +1,39 @@
+Using Flexbox:
+1.
+.parent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+2.
+.parent {
+	display:flex;
+}
+.child {
+	margin: auto;
+}
+
+Using Grid:
+1.
+.parent {
+	display:grid;
+	place-content:center;
+}
+2.
+.parent {
+	display:grid;
+}
+.child{
+	margin:auto;
+}
+
+Using Position:
+.parent {
+	position:relateve;
+}
+.child {
+	position: absolute;
+	top: 50%
+	left: 50%
+	transform: translate(-50%, -50%)
+}
