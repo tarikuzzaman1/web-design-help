@@ -1,2 +1,6 @@
 Centering Elements in CSS
 You can just set text-align to center for an inline element, and margin: 0 auto would do it for a block-level element.
+
+Flexbox: flex-basis| flex-grew
+Each Child Item is given a flex-grew:1 
+this means they will share the available positive free space equally among themselves
